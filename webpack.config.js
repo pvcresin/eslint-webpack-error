@@ -23,7 +23,6 @@ module.exports = {
   plugins: [
     new ESLintPlugin({
       extensions: ['ts', 'tsx'],
-      failOnError: true,
     }),
   ],
 };
